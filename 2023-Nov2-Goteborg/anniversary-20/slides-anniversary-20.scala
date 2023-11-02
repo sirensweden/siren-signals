@@ -7,6 +7,7 @@ import taggy.*
   slides.toPdf(out = "slides-anniversary-20", dir = "tex")
 
 def size(f: Int, s: Int): String = s"\\fontsize{$f}{$s}\\selectfont"
+
 def slides = document("SiREN ANNIVERSARY 20 YEARS"):
   frame("SiREN Signals until now"):
     p(size(9,11) + "2023, Göteborg 2-3 Nov, **20 YEARS ANNIVERSARY**")
@@ -33,3 +34,15 @@ def slides = document("SiREN ANNIVERSARY 20 YEARS"):
   frame("The SiREN Founding Generation"):
     p("2nd Signal in Lund Oct 22, 2003")
     image("../../../2003-Oct22-Lund/signal2-participants.jpg", width = 1.05)
+
+  frame("The Initial SiREN Agenda"):
+    p("See first presentations here:\\\\\\vspace{1em}https://github.com/sirensweden/siren-signals/blob/main/2003-June11-Lund/")
+
+  frame("Why SiREN?"):
+    itemize:
+      p("Gather all academic RE researchers in Sweden")
+      p("Help PhD students build a network")
+      p("Senior Faculty exchange and coordination")
+      p("Pave the way for collaboration")
+      p("Strengthen RE research in Sweden")
+      p("Open, inclusive, friendly, fun, easy...")
