@@ -9,7 +9,7 @@ import taggy.*
 def size(f: Int, s: Int): String = s"\\fontsize{$f}{$s}\\selectfont"
 
 def slides = document("SiREN ANNIVERSARY 20 YEARS"):
-  frame("SiREN Signals until now"):
+  frame("All SiREN Signals until now https://sirensweden.org"):
     p(size(9,11) + "2023, Göteborg 2-3 Nov, **20 YEARS ANNIVERSARY**")
     p("(2020 planned for Göteborg, cancelled by Corona)")
     p("2019, Lund, May 7-8")
@@ -46,3 +46,23 @@ def slides = document("SiREN ANNIVERSARY 20 YEARS"):
       p("Pave the way for collaboration")
       p("Strengthen RE research in Sweden")
       p("Open, inclusive, friendly, fun, easy...")
+      p("[]~")
+      p("''Idag motverkas akademisk excellens av tävlingstänkandet'', *L.  Bringselius*\\\\https://etidning.sydsvenskan.se/shared/article/kolumnen/3jB7Jq76")
+
+  frame("Some things we have achieved"):
+    enumerate:
+      p("We have survived for 20 years")
+      p("Numerous fruitful meetings and interactions")
+      p("National context for PhD students in RE")
+      p("Sharing research and education")
+      p("Joint experiment")
+      p("Collaboration in funding applications")
+      p("Interaction with ''Industrial RE Ambassadors''")
+      p("Having a nice time with peers")
+
+  frame("SiREN in the Future"):
+    p("Open discussions:")
+    itemize:
+      p("What has been most rewarding with SiREN?")
+      p("What do you want to do in SiREN?")
+      p("What makes coming to the next meeting attractive?")
